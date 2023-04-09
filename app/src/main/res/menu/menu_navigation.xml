@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bankcards"
+        android:title="Счета"
+        android:icon="@drawable/bankcardsicon"/>
+
+    <item android:id="@+id/topuppayment"
+        android:title="Операции"
+        android:icon="@drawable/topuppaymenticon"/>
+
+    <item android:id="@+id/paperwork"
+        android:title="Планы"
+        android:icon="@drawable/paperworkicon"/>
+    <item android:id="@+id/graph"
+        android:title="Аналитика"
+        android:icon="@drawable/graphicon"/>
+
+    <item android:id="@+id/about"
+        android:title="Ещё"
+        android:icon="@drawable/viewmoreicon"/>
+</menu>
