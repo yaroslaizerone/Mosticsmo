@@ -80,13 +80,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".SmsPermission"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".CurrencySelection"
             android:exported="false">
             <meta-data
@@ -113,13 +106,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".PasswordRecovery"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
         </activity>
         <activity
             android:name=".InputVhod"

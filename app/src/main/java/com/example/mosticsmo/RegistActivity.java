@@ -81,12 +81,11 @@ public class RegistActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-                            Toast.makeText(RegistActivity.this, "Аккаунт создан, подтвердите свой e-mail.", Toast.LENGTH_SHORT).show();
+                            Utility.showToast(RegistActivity.this, "Аккаунт создан, подтвердите свой e-mail.");
                             firebaseAuth.getCurrentUser().sendEmailVerification();
                             firebaseAuth.signOut();
                         }else{
-                            Toast.makeText(RegistActivity.this, task.getException().getLocalizedMessage(), Toast.LENGTH_SHORT).show();
-
+                            Utility.showToast(RegistActivity.this, task.getException().getLocalizedMessage());
                         }
                     }
                 });

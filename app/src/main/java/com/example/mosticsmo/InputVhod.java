@@ -23,9 +23,4 @@ public class InputVhod extends AppCompatActivity {
         i = new Intent(this, FirstInput.class);
         startActivity(i);
     }
-    public void PasswordRecoveryActivity(View v) {
-        Intent i;
-        i = new Intent(this, PasswordRecovery.class);
-        startActivity(i);
-    }
 }

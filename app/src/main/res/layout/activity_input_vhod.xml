@@ -74,19 +74,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/AutoLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="4dp"
-        android:text="Не помните пароль?"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttoninput"
-        android:textColor="#00008B"
-        android:clickable="true"
-        android:onClick="PasswordRecoveryActivity"/>
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="43dp"
