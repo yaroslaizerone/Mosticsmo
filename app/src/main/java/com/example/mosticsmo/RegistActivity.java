@@ -22,7 +22,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class RegistActivity extends AppCompatActivity {
 
     EditText email_input,password_input,repitpassword_input;
-    ImageView show_password, show_rpassword;
+    ImageButton show_password, show_rpassword;
     int i,j = 1;
 
     @Override

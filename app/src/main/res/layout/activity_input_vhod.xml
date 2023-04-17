@@ -68,6 +68,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="560dp"
         android:background="@drawable/roundbutton"
+        android:onClick="InpytsystemActivity"
         android:text="Войти по логину"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"

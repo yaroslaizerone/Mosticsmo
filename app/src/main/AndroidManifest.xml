@@ -101,27 +101,6 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".PincodeEmail"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".CreatePINcodeAcount"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".PinCodeActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".InputInSystem"
             android:exported="false">
             <meta-data

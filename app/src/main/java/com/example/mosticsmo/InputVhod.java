@@ -13,6 +13,11 @@ public class InputVhod extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input_vhod);
     }
+    public void InpytsystemActivity(View v) {
+        Intent i;
+        i = new Intent(this, InputInSystem.class);
+        startActivity(i);
+    }
     public void BackActivity(View v) {
         Intent i;
         i = new Intent(this, FirstInput.class);

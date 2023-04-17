@@ -20,14 +20,14 @@
         app:srcCompat="@drawable/buttonback" />
 
     <EditText
-        android:id="@+id/InputUserLogin"
+        android:id="@+id/InputUserEmail"
         android:layout_width="287dp"
         android:layout_height="44dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="284dp"
         android:ems="10"
-        android:hint="Введите логин"
-        android:inputType="text"
+        android:hint="Введите e-mail"
+        android:inputType="textEmailAddress"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -55,23 +55,25 @@
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="4dp"
-        android:background="@drawable/account_icon"
-        app:layout_constraintStart_toStartOf="@+id/InputUserLogin"
-        app:layout_constraintTop_toTopOf="@+id/InputUserLogin"/>
+        android:background="@drawable/mail_icon"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/InputUserEmail"
+        app:layout_constraintStart_toEndOf="@+id/InputUserEmail"
+        app:layout_constraintTop_toTopOf="@+id/InputUserEmail" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+    <ImageButton
+        android:id="@+id/ShowPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="44dp"
         android:background="@drawable/notpassword"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPassword"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
@@ -85,7 +87,7 @@
         android:hint="Введите пароль"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/InputUserLogin"/>
+        app:layout_constraintTop_toBottomOf="@+id/InputUserEmail"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
