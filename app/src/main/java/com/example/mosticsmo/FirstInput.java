@@ -14,15 +14,16 @@ public class FirstInput extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Request window teature
-        //requestWindowFeature(Window.FEATURE_NO_TITLE);
-        //getSupportActionBar().hide();
         setContentView(R.layout.first_input);
-        TextView texthave = (TextView)findViewById(R.id.AutoLogin);
     }
     public void RunVhod(View v) {
         Intent i;
         i = new Intent(this, InputVhod.class);
+        startActivity(i);
+    }
+    public void RunRegist(View v) {
+        Intent i;
+        i = new Intent(this, RegistActivity.class);
         startActivity(i);
     }
 }

@@ -80,6 +80,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="584dp"
         android:background="@drawable/roundbutton"
+        android:onClick="RunRegist"
         android:text="Регистрация"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"

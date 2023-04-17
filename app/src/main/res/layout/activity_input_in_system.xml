@@ -20,14 +20,14 @@
         app:srcCompat="@drawable/buttonback" />
 
     <EditText
-        android:id="@+id/Inputuserpassword"
+        android:id="@+id/InputUserLogin"
         android:layout_width="287dp"
         android:layout_height="44dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="284dp"
         android:ems="10"
         android:hint="Введите логин"
-        android:inputType="textEmailAddress"
+        android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -62,8 +62,8 @@
         android:layout_marginStart="288dp"
         android:layout_marginTop="4dp"
         android:background="@drawable/account_icon"
-        app:layout_constraintStart_toStartOf="@+id/Inputuserpassword"
-        app:layout_constraintTop_toTopOf="@+id/Inputuserpassword"/>
+        app:layout_constraintStart_toStartOf="@+id/InputUserLogin"
+        app:layout_constraintTop_toTopOf="@+id/InputUserLogin"/>
 
     <ImageView
         android:id="@+id/imageView3"
@@ -85,7 +85,7 @@
         android:hint="Введите пароль"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Inputuserpassword"/>
+        app:layout_constraintTop_toBottomOf="@+id/InputUserLogin"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
